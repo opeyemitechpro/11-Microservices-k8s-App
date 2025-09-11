@@ -15,7 +15,6 @@ GOOGLE_API_KEY=AIzaSyBdVgLhgyZexample_key_KE
 
 STRIPE_SECRET_KEY=sk_test_51Hkexample_secret_key_7qB
 
-SLACK_BOT_KEY=xoxb-123456789012-1234567890123-abc123def456
 
 These dummy secrets are designed to trigger `Gitleaks` detection in my CI/CD pipeline, ensuring my security measures are working correctly.
 
