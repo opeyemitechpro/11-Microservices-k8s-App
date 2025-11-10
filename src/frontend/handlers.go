@@ -94,7 +94,7 @@ func (fe *frontendServer) homeHandler(w http.ResponseWriter, r *http.Request) {
 		fmt.Println("env platform is either empty or invalid")
 		// env = "local"
 
-		env = "OpeyemiTechPro"
+		env = "OpeyemiTechPro-v1"
 	}
 	// Autodetect GCP
 	addrs, err := net.LookupHost("metadata.google.internal.")
