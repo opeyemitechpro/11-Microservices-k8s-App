@@ -106,7 +106,8 @@ func (fe *frontendServer) homeHandler(w http.ResponseWriter, r *http.Request) {
 	addrs, err := net.LookupHost("metadata.google.internal.")
 	if err == nil && len(addrs) >= 0 {
 		log.Debugf("Detected Google metadata server: %v, setting ENV_PLATFORM to GCP.", addrs)
-		env = "gcp"
+		// env = "gcp"
+		env = ENV_PLATFORM
 	}
 
 	log.Debugf("ENV_PLATFORM is: %s", env)
@@ -162,8 +163,8 @@ func (plat *platformDetails) setPlatformDetails(env string) {
 		plat.provider = "Alibaba Cloud"
 		plat.css = "alibaba-platform"
 	} else {
-		plat.provider = "OpeyemiTechPro"
-		plat.css = "opeyemi-platform"
+		plat.provider = "OpeyemiTechPro_v1"
+		plat.css = "opeyemi1-platform"
 	}
 }
 
