@@ -132,17 +132,17 @@ func (plat *platformDetails) setPlatformDetails(env string) {
 		plat.provider = "AWS"
 		plat.css = "aws-platform"
 	} else if env == "OpeyemiTechPro" {
-		plat.provider = "AWS"
-		plat.css = "aws-platform"
+		plat.provider = "OpeyemiTechPro"
+		plat.css = "opeyemi-platform"
 	}  else if env == "OpeyemiTechPro-v1" {
-		plat.provider = "AWS"
-		plat.css = "aws-platform"
+		plat.provider = "OpeyemiTechPro-v1"
+		plat.css = "opeyemi1-platform"
 	}  else if env == "OpeyemiTechPro-v2" {
-		plat.provider = "AWS"
-		plat.css = "aws-platform"
+		plat.provider = "OpeyemiTechPro-v2"
+		plat.css = "opeyemi2-platform"
 	}  else if env == "OpeyemiTechPro-v3" {
-		plat.provider = "AWS"
-		plat.css = "aws-platform"
+		plat.provider = "OpeyemiTechPro-v3"
+		plat.css = "opeyemi3-platform"
 	}  else if env == "onprem" {
 		plat.provider = "On-Premises"
 		plat.css = "onprem-platform"
@@ -156,8 +156,8 @@ func (plat *platformDetails) setPlatformDetails(env string) {
 		plat.provider = "Alibaba Cloud"
 		plat.css = "alibaba-platform"
 	} else {
-		plat.provider = "AWS"
-		plat.css = "aws-platform"
+		plat.provider = "OpeyemiTechPro"
+		plat.css = "opeyemi-platform"
 	}
 }
 

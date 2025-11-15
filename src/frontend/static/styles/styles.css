@@ -468,6 +468,10 @@ similar to that of the hot-products-row.
 /* Platform Banner */
 
 .local,
+.opeyemi-platform,
+.opeyemi1-platform,
+.opeyemi2-platform,
+.opeyemi3-platform,
 .aws-platform,
 .onprem-platform,
 .azure-platform,
@@ -486,6 +490,26 @@ similar to that of the hot-products-row.
 .aws-platform,
 .aws-platform .platform-flag {
   background-color: #ff9900;
+}
+
+.opeyemi-platform,
+.opeyemi-platform .platform-flag {
+  background-color: #ff9900;
+}
+
+.opeyemi1-platform,
+.opeyemi1-platform .platform-flag {
+  background-color: #1606f1;
+}
+
+.opeyemi2-platform,
+.opeyemi2-platform .platform-flag {
+  background-color: #34A853;
+}
+
+.opeyemi3-platform,
+.opeyemi3-platform .platform-flag {
+  background-color: #eb0808;
 }
 
 .onprem-platform,
