@@ -88,14 +88,20 @@ func (fe *frontendServer) homeHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	// Set ENV_PLATFORM (default to local if not set; use env var if set; otherwise detect GCP, which overrides env)_
-	var env = os.Getenv("ENV_PLATFORM")
+
+	var ENV_PLATFORM = "OpeyemiTechPro_v1"
+
+	var env = ENV_PLATFORM
 	// Only override from env variable if set + valid env
 	if env == "" || stringinSlice(validEnvs, env) == false {
 		fmt.Println("env platform is either empty or invalid")
 		// env = "local"
 
-		env = "OpeyemiTechPro_v1"
+		env = "OpeyemiTechPro"
 	}
+
+
+
 	// Autodetect GCP
 	addrs, err := net.LookupHost("metadata.google.internal.")
 	if err == nil && len(addrs) >= 0 {
