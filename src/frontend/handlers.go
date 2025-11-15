@@ -93,12 +93,12 @@ func (fe *frontendServer) homeHandler(w http.ResponseWriter, r *http.Request) {
 
 	var env = ENV_PLATFORM
 	// Only override from env variable if set + valid env
-	if env == "" || stringinSlice(validEnvs, env) == false {
-		fmt.Println("env platform is either empty or invalid")
-		// env = "local"
+	// if env == "" || stringinSlice(validEnvs, env) == false {
+	// 	fmt.Println("env platform is either empty or invalid")
+	// 	// env = "local"
 
-		env = "OpeyemiTechPro"
-	}
+	// 	env = "OpeyemiTechPro"
+	// }
 
 
 
