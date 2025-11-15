@@ -52,7 +52,7 @@ var (
 
 // var validEnvs = []string{"local", "gcp", "azure", "aws", "onprem", "alibaba"}
 
-var validEnvs = []string{"local", "gcp", "azure", "aws", "onprem", "alibaba", "OpeyemiTechPro", "OpeyemiTechPro-v1", "OpeyemiTechPro-v2", "OpeyemiTechPro-v3"}
+var validEnvs = []string{"local", "gcp", "azure", "aws", "onprem", "alibaba", "OpeyemiTechPro", "OpeyemiTechPro_v1", "OpeyemiTechPro_v2", "OpeyemiTechPro_v3"}
 
 func (fe *frontendServer) homeHandler(w http.ResponseWriter, r *http.Request) {
 	log := r.Context().Value(ctxKeyLog{}).(logrus.FieldLogger)
@@ -94,7 +94,7 @@ func (fe *frontendServer) homeHandler(w http.ResponseWriter, r *http.Request) {
 		fmt.Println("env platform is either empty or invalid")
 		// env = "local"
 
-		env = "OpeyemiTechPro-v1"
+		env = "OpeyemiTechPro_v1"
 	}
 	// Autodetect GCP
 	addrs, err := net.LookupHost("metadata.google.internal.")
@@ -134,14 +134,14 @@ func (plat *platformDetails) setPlatformDetails(env string) {
 	} else if env == "OpeyemiTechPro" {
 		plat.provider = "OpeyemiTechPro"
 		plat.css = "opeyemi-platform"
-	}  else if env == "OpeyemiTechPro-v1" {
-		plat.provider = "OpeyemiTechPro-v1"
+	}  else if env == "OpeyemiTechPro_v1" {
+		plat.provider = "OpeyemiTechPro_v1"
 		plat.css = "opeyemi1-platform"
-	}  else if env == "OpeyemiTechPro-v2" {
-		plat.provider = "OpeyemiTechPro-v2"
+	}  else if env == "OpeyemiTechPro_v2" {
+		plat.provider = "OpeyemiTechPro_v2"
 		plat.css = "opeyemi2-platform"
-	}  else if env == "OpeyemiTechPro-v3" {
-		plat.provider = "OpeyemiTechPro-v3"
+	}  else if env == "OpeyemiTechPro_v3" {
+		plat.provider = "OpeyemiTechPro_v3"
 		plat.css = "opeyemi3-platform"
 	}  else if env == "onprem" {
 		plat.provider = "On-Premises"
