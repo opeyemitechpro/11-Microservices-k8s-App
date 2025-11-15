@@ -1,3 +1,8 @@
+> [!NOTE]
+> This repo is a clone and it has been slightly modified by [OpeyemiTechPro](https://github.com/opeyemitechpro) for educational purposes to illustrate some DevSecOps concepts.
+> The original repo can be found at the link above.
+
+
 <p align="center">
 <img src="/src/frontend/static/icons/Hipster_HeroLogoMaroon.svg" width="300" alt="Online Boutique" />
 </p>
