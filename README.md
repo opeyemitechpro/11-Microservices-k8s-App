@@ -1,12 +1,11 @@
 > [!NOTE]
-> [Full Project Documentation can be found Here](https://opeyemitechpro.github.io/my-projects/devops_projects/11micro)
-
-> [!NOTE]
-> This repo is a clone and it has been slightly modified by [OpeyemiTechPro](https://github.com/opeyemitechpro) for educational purposes to illustrate some DevSecOps concepts.
-> The original repo can be found at the link above.
+> [Full Project Documentation can be found Here: End-to-End DevSecOps Project - Automating Provisioning, Deployment and Monitoring of an 11-Microservice e-Commerce App on kubernetes (EKS)
+](https://opeyemitechpro.github.io/my-projects/devops_projects/11micro)
 
 > [!NOTE]
 > This application repo was used to demonstrate a complete, production-grade DevSecOps pipeline for deploying a cloud-native e-commerce application built on 11 different microservices written in multiple programming languages that communicate with each other over gRPC. The application was originally designed by Google Developers for the GKE but I have adapted it to be deployed on Amazon EKS or on any Kubernetes cluster.
+> This repo is a clone and it has been slightly modified by [OpeyemiTechPro](https://github.com/opeyemitechpro) for educational purposes to illustrate some DevSecOps concepts.
+> The original repo can be found at the link above.
 
 
 <br><br>
@@ -18,7 +17,7 @@
 
 
 
-![DevSecOps CI-CD project](https://opeyemitechpro.github.io/my-projects/devops_projects/11micro/DevSecOps%20CI-CD%20project/badge.svg)
+![DevSecOps CI-CD project](https://opeyemitechpro.github.io/my-projects/devops_projects/11micro/)
 
 **Online Boutique** is a cloud-first microservices demo application.
 Online Boutique consists of an 11-tier microservices application. The application is a
