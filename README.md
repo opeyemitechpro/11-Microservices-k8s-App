@@ -17,7 +17,7 @@
 
 
 
-![DevSecOps CI-CD project](https://opeyemitechpro.github.io/my-projects/devops_projects/11micro/)
+[DevSecOps CI-CD project](https://opeyemitechpro.github.io/my-projects/devops_projects/11micro/)
 
 **Online Boutique** is a cloud-first microservices demo application.
 Online Boutique consists of an 11-tier microservices application. The application is a
